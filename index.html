@@ -3,61 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CozyNest Finds | Amazon Home Decor for Small Spaces</title>
-  <meta name="description" content="Curated Amazon home decor finds for cozy small apartments. Affordable aesthetic bedroom and living room upgrades." />
+  <title>CozyNest Finds | Amazon Home Decor</title>
+  <meta name="description" content="Curated Amazon home decor finds for cozy small apartments." />
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
 
-  <!-- NAV -->
-  <nav>
-    <div class="nav-container">
-      <div class="logo">CozyNest Finds</div>
-      <a href="#products" class="nav-btn">Shop Finds</a>
+<nav>
+  <div class="nav-container">
+    <div class="logo">CozyNest Finds</div>
+    <a href="#products" class="nav-btn">Shop Finds</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Affordable Amazon Home Decor for Cozy Small Spaces ✨</h1>
+    <p>Curated aesthetic finds that instantly upgrade your bedroom and living room.</p><br>
+    <a href="#products" class="nav-btn">Explore Decor Picks</a>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <h2>Latest Cozy Finds</h2>
+
+  <div class="controls">
+    <input
+      type="text"
+      placeholder="Search products..."
+      class="search-input"
+      onkeyup="searchProducts(this.value)"
+    />
+
+    <div class="filters">
+      <button onclick="filterProducts('all')">All</button>
+      <button onclick="filterProducts('furniture')">Furniture</button>
+      <button onclick="filterProducts('lighting')">Lighting</button>
+      <button onclick="filterProducts('wall-decor')">Wall Decor</button>
+      <button onclick="filterProducts('storage')">Storage</button>
+      <button onclick="filterProducts('textiles')">Textiles</button>
     </div>
-  </nav>
+  </div>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Affordable Amazon Home Decor for Cozy Small Spaces ✨</h1>
-      <p>
-        Curated aesthetic finds for modern apartments. Budget-friendly pieces
-        that instantly upgrade your bedroom and living room.
-      </p>
-      <a href="#products" class="btn">Explore Decor Picks</a>
-    </div>
-  </section>
+  <div class="product-grid" id="productGrid"></div>
 
-  <!-- PRODUCTS -->
-  <section class="section" id="products">
-    <h2>Latest Cozy Finds</h2>
-    <div class="product-grid" id="productGrid"></div>
-  </section>
+  <button id="loadMoreBtn" class="load-more-btn">
+    Load More
+  </button>
+</section>
 
-  <!-- ABOUT -->
-  <section class="section alt-section">
-    <h2>About CozyNest Finds</h2>
-    <p class="about-text">
-      CozyNest Finds curates the best Amazon home decor for small apartments
-      and cozy spaces. Every item is hand-selected to help you create a warm,
-      modern aesthetic without overspending.
-    </p>
-  </section>
+<section class="section alt-section">
+  <h2>About CozyNest Finds</h2>
+  <p class="about-text">
+    CozyNest Finds curates the best Amazon home decor for small apartments and cozy spaces.
+  </p>
+</section>
 
-  <!-- DISCLOSURE -->
-  <section class="disclosure">
+<section class="disclosure">
+  <p>
     Disclosure: As an Amazon Associate, I earn from qualifying purchases.
     This comes at no additional cost to you.
-  </section>
+  </p>
+</section>
 
-  <!-- FOOTER -->
-  <footer>
-    © 2026 CozyNest Finds. All rights reserved.
-  </footer>
+<footer>
+  © 2026 CozyNest Finds
+</footer>
 
-  <script src="main.js"></script>
-
+<script src="main.js"></script>
 </body>
 </html>
