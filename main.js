@@ -142,6 +142,78 @@ const products = [
     description: "Elegant artificial olive tree that adds height and warmth to small spaces.",
     image: "assets/faux-olive-tree.jpg",
     link: "https://amzn.to/3MEf9IT"
+  },
+  {
+    title: "Large Neutral Decorative Floor Vase",
+    description: "Oversized ceramic floor vase that elevates empty corners instantly.",
+    image: "assets/floor-vase.jpg",
+    link: "https://amzn.to/46DZXlI"
+  },
+  {
+    title: "Upholstered Storage Bench",
+    description: "Stylish bench with hidden storage for bedrooms and entryways.",
+    image: "assets/storage-bench.jpg",
+    link: "https://amzn.to/4ubA72K"
+  },
+  {
+    title: "Minimal Gallery Wall Frame Set",
+    description: "Modern frame set perfect for creating a Pinterest-style gallery wall.",
+    image: "assets/gallery-frames.jpg",
+    link: "https://amzn.to/46ybyCP"
+  },
+  {
+    title: "Luxury Scented Soy Candle Set",
+    description: "Neutral candle set that adds warmth and cozy ambiance.",
+    image: "assets/soy-candles.jpg",
+    link: "https://amzn.to/4spwLHG"
+  },
+  {
+    title: "Modern Counter Height Bar Stools",
+    description: "Minimal bar stools perfect for small kitchen islands.",
+    image: "assets/bar-stools.jpg",
+    link: "https://amzn.to/46EwVSV"
+  },
+  {
+    title: "Minimal Hanging Planter Set",
+    description: "Wall-mounted planters perfect for adding greenery without clutter.",
+    image: "assets/hanging-planters.jpg",
+    link: "https://amzn.to/4cZsXIp"
+  },
+  {
+    title: "Round Neutral Ottoman Pouf",
+    description: "Soft textured pouf that adds extra seating and style.",
+    image: "assets/ottoman-pouf.jpg",
+    link: "https://amzn.to/4b3C7kK"
+  },
+  {
+    title: "Modern Woven Laundry Hamper",
+    description: "Stylish hamper that keeps bedrooms looking tidy.",
+    image: "assets/laundry-hamper.jpg",
+    link: "https://amzn.to/47lz71T"
+  },
+  {
+    title: "Smart LED Floor Lamp",
+    description: "Adjustable smart lamp that creates cozy mood lighting.",
+    image: "assets/smart-floor-lamp.jpg",
+    link: "https://amzn.to/4rIEpwB"
+  },
+  {
+    title: "Minimal Frameless Round Wall Mirror",
+    description: "Simple round mirror that makes small rooms feel bigger.",
+    image: "assets/round-mirror.jpg",
+    link: "https://amzn.to/4l6bwb9"
+  },
+  {
+    title: "Modern Fluted TV Stand (Small Space)",
+    description: "Stylish fluted TV console that adds texture and storage to compact living rooms.",
+    image: "assets/fluted-tv-stand.jpg",
+    link: "https://amzn.to/4sg8Iuw"
+  },
+  {
+    title: "Neutral Abstract Area Rug (5x7)",
+    description: "Soft modern area rug that makes small apartments feel warm and spacious.",
+    image: "assets/neutral-area-rug.jpg",
+    link: "https://amzn.to/4lbDZwy"
   }
 ];
 
