@@ -70,6 +70,78 @@ const products = [
     description: "Minimalist vase set perfect for coffee table styling.",
     image: "assets/ceramic-vase.jpg",
     link: "https://amzn.to/3ZIkUIq"
+  },
+  {
+    title: "Oversized Wall Clock (Minimal Design)",
+    description: "Large modern wall clock that becomes a statement piece in small living rooms.",
+    image: "assets/wall-clock.jpg",
+    link: "https://amzn.to/3MSOvvU"
+  },
+  {
+    title: "Boucle Accent Chair",
+    description: "Soft neutral boucle chair that adds cozy texture to any bedroom or reading corner.",
+    image: "assets/boucle-chair.jpg",
+    link: "https://amzn.to/3OJ91Q5"
+  },
+  {
+    title: "Wood Bead Garland Decor",
+    description: "Minimal farmhouse-style wood bead garland perfect for coffee table styling.",
+    image: "assets/wood-beads.jpg",
+    link: "https://amzn.to/4r2VsZ5"
+  },
+  {
+    title: "Rattan Storage Basket Set",
+    description: "Stylish woven baskets for organizing blankets, toys, or laundry in small spaces.",
+    image: "assets/rattan-basket.jpg",
+    link: "https://amzn.to/4scJf52"
+  },
+  {
+    title: "Modern Bedside Table (Small Space)",
+    description: "Compact nightstand ideal for apartments and minimal bedrooms.",
+    image: "assets/bedside-table.jpg",
+    link: "https://amzn.to/46Cw1Gz"
+  },
+  {
+    title: "Neutral Blackout Curtains",
+    description: "Soft beige blackout curtains that create a cozy and warm bedroom atmosphere.",
+    image: "assets/blackout-curtains.jpg",
+    link: "https://amzn.to/3MRcwDB"
+  },
+  {
+    title: "Decorative Throw Pillow Covers (Neutral Set)",
+    description: "Affordable neutral pillow covers that instantly upgrade your couch aesthetic.",
+    image: "assets/pillow-covers.jpg",
+    link: "https://amzn.to/4l1R6Aa"
+  },
+  {
+    title: "Wall Mounted Entryway Key Holder",
+    description: "Minimal wall organizer perfect for keeping keys and mail tidy.",
+    image: "assets/key-holder.jpg",
+    link: "https://amzn.to/4aZXW4J"
+  },
+  {
+    title: "Small Ottoman with Storage",
+    description: "Multi-functional ottoman that adds seating and hidden storage to small apartments.",
+    image: "assets/storage-ottoman.jpg",
+    link: "https://amzn.to/4b6e7NV"
+  },
+  {
+    title: "Modern Floor Lamp (Arc Style)",
+    description: "Elegant arc floor lamp that creates soft ambient lighting in living rooms.",
+    image: "assets/arc-floor-lamp.jpg",
+    link: "https://amzn.to/4rMn71C"
+  },
+  {
+    title: "Neutral Small-Space Sectional Sofa",
+    description: "Compact modern sectional sofa perfect for cozy apartment living rooms.",
+    image: "assets/sectional-sofa.jpg",
+    link: "https://amzn.to/40276Zr"
+  },
+  {
+    title: "Tall Faux Olive Tree (Indoor Decor)",
+    description: "Elegant artificial olive tree that adds height and warmth to small spaces.",
+    image: "assets/faux-olive-tree.jpg",
+    link: "https://amzn.to/3MEf9IT"
   }
 ];
 
