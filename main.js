@@ -44,113 +44,18 @@ const products = [
   { title: "Minimal Frameless Round Wall Mirror", description: "Simple round mirror that makes small rooms feel bigger.", image: "assets/round-mirror.jpg", link: "https://amzn.to/4l6bwb9", category: "wall-decor", date: "2026-04-03" },
   { title: "Modern Fluted TV Stand (Small Space)", description: "Stylish fluted TV console that adds texture and storage to compact living rooms.", image: "assets/fluted-tv-stand.jpg", link: "https://amzn.to/4sg8Iuw", category: "furniture", date: "2026-04-04" },
   { title: "Neutral Abstract Area Rug (5x7)", description: "Soft modern area rug that makes small apartments feel warm and spacious.", image: "assets/neutral-area-rug.jpg", link: "https://amzn.to/4lbDZwy", category: "textiles", date: "2026-04-05" },
-  {
-    title: "Cream Shag Area Rug (Cozy Living Room)",
-    description: "Ultra soft cream shag rug perfect for cozy living room and bedroom aesthetics.",
-    image: "assets/cream-shag-rug.jpg",
-    link: "https://amzn.to/46EL3LZ",
-    category: "textiles",
-    date: "2026-04-06"
-  },
-
-  {
-    title: "Boho Neutral Area Rug",
-    description: "Beautiful boho patterned rug that instantly upgrades living rooms and bedrooms.",
-    image: "assets/boho-neutral-rug.jpg",
-    link: "https://amzn.to/4aMlRWq",
-    category: "textiles",
-    date: "2026-04-07"
-  },
-
-  {
-    title: "Modern Abstract Living Room Rug",
-    description: "Stylish abstract rug perfect for modern apartments and small spaces.",
-    image: "assets/abstract-modern-rug.jpg",
-    link: "https://amzn.to/4aOanSd",
-    category: "textiles",
-    date: "2026-04-08"
-  },
-
-  {
-    title: "Washable Neutral Area Rug",
-    description: "Easy to clean neutral rug perfect for apartments, pets and busy homes.",
-    image: "assets/washable-rug.jpg",
-    link: "https://amzn.to/4blVMO3",
-    category: "textiles",
-    date: "2026-04-09"
-  },
-
-  {
-    title: "Soft Fluffy Bedroom Rug",
-    description: "Super soft fluffy rug that adds warmth and comfort to any bedroom.",
-    image: "assets/fluffy-bedroom-rug.jpg",
-    link: "https://amzn.to/4aNN76X",
-    category: "textiles",
-    date: "2026-04-10"
-  },
-
-  {
-    title: "Vintage Persian Style Rug",
-    description: "Vintage inspired rug that adds timeless character to modern living rooms.",
-    image: "assets/vintage-persian-rug.jpg",
-    link: "https://amzn.to/4b0PvGe",
-    category: "textiles",
-    date: "2026-04-11"
-  },
-
-  {
-    title: "Minimal Neutral Apartment Rug",
-    description: "Clean minimal rug designed for small apartments and cozy spaces.",
-    image: "assets/minimal-neutral-rug.jpg",
-    link: "https://amzn.to/4blVNS7",
-    category: "textiles",
-    date: "2026-04-12"
-  },
-
-  {
-    title: "Geometric Pattern Area Rug",
-    description: "Modern geometric rug that adds personality to minimalist living rooms.",
-    image: "assets/geometric-rug.jpg",
-    link: "https://amzn.to/40IU9DW",
-    category: "textiles",
-    date: "2026-04-13"
-  },
-
-  {
-    title: "Cozy Living Room Rug (Neutral Beige)",
-    description: "Soft beige rug that makes living rooms feel warm and inviting.",
-    image: "assets/beige-living-room-rug.jpg",
-    link: "https://amzn.to/4aX2KZX",
-    category: "textiles",
-    date: "2026-04-14"
-  },
-
-  {
-    title: "Round Neutral Accent Rug",
-    description: "Stylish round rug perfect for reading corners and small bedrooms.",
-    image: "assets/round-accent-rug.jpg",
-    link: "https://amzn.to/4l4ohTE",
-    category: "textiles",
-    date: "2026-04-15"
-  },
-
-  {
-    title: "Boho Tassel Rug",
-    description: "Trendy boho rug with tassels that adds cozy texture to apartments.",
-    image: "assets/boho-tassel-rug.jpg",
-    link: "https://amzn.to/478WPym",
-    category: "textiles",
-    date: "2026-04-16"
-  },
-
-  {
-    title: "Soft Modern Living Room Carpet",
-    description: "Neutral modern carpet that transforms small living rooms instantly.",
-    image: "assets/modern-carpet.jpg",
-    link: "https://amzn.to/4b2rqi6",
-    category: "textiles",
-    date: "2026-04-17"
-  }
+  { title: "Cream Shag Area Rug (Cozy Living Room)", description: "Ultra soft cream shag rug perfect for cozy living room and bedroom aesthetics.", image: "assets/cream-shag-rug.jpg", link: "https://amzn.to/46EL3LZ", category: "textiles", date: "2026-04-06" },
+  { title: "Boho Neutral Area Rug", description: "Beautiful boho patterned rug that instantly upgrades living rooms and bedrooms.", image: "assets/boho-neutral-rug.jpg", link: "https://amzn.to/4aMlRWq", category: "textiles", date: "2026-04-07" },
+  { title: "Modern Abstract Living Room Rug", description: "Stylish abstract rug perfect for modern apartments and small spaces.", image: "assets/abstract-modern-rug.jpg", link: "https://amzn.to/4aOanSd", category: "textiles", date: "2026-04-08" },
+  { title: "Washable Neutral Area Rug", description: "Easy to clean neutral rug perfect for apartments, pets and busy homes.", image: "assets/washable-rug.jpg", link: "https://amzn.to/4blVMO3", category: "textiles", date: "2026-04-09" },
+  { title: "Soft Fluffy Bedroom Rug", description: "Super soft fluffy rug that adds warmth and comfort to any bedroom.", image: "assets/fluffy-bedroom-rug.jpg", link: "https://amzn.to/4aNN76X", category: "textiles", date: "2026-04-10" },
+  { title: "Vintage Persian Style Rug", description: "Vintage inspired rug that adds timeless character to modern living rooms.", image: "assets/vintage-persian-rug.jpg", link: "https://amzn.to/4b0PvGe", category: "textiles", date: "2026-04-11" },
+  { title: "Minimal Neutral Apartment Rug", description: "Clean minimal rug designed for small apartments and cozy spaces.", image: "assets/minimal-neutral-rug.jpg", link: "https://amzn.to/4blVNS7", category: "textiles", date: "2026-04-12" },
+  { title: "Geometric Pattern Area Rug", description: "Modern geometric rug that adds personality to minimalist living rooms.", image: "assets/geometric-rug.jpg", link: "https://amzn.to/40IU9DW", category: "textiles", date: "2026-04-13" },
+  { title: "Cozy Living Room Rug (Neutral Beige)", description: "Soft beige rug that makes living rooms feel warm and inviting.", image: "assets/beige-living-room-rug.jpg", link: "https://amzn.to/4aX2KZX", category: "textiles", date: "2026-04-14" },
+  { title: "Round Neutral Accent Rug", description: "Stylish round rug perfect for reading corners and small bedrooms.", image: "assets/round-accent-rug.jpg", link: "https://amzn.to/4l4ohTE", category: "textiles", date: "2026-04-15" },
+  { title: "Boho Tassel Rug", description: "Trendy boho rug with tassels that adds cozy texture to apartments.", image: "assets/boho-tassel-rug.jpg", link: "https://amzn.to/478WPym", category: "textiles", date: "2026-04-16" },
+  { title: "Soft Modern Living Room Carpet", description: "Neutral modern carpet that transforms small living rooms instantly.", image: "assets/modern-carpet.jpg", link: "https://amzn.to/4b2rqi6", category: "textiles", date: "2026-04-17" }
 ];
 
 /* Sort newest first */
